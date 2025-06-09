@@ -51,33 +51,35 @@ This project tackles Taiwan’s distinctive traffic environment—Traditional Ch
 3. **Install dependencies**
    ```bash
    pip install ultralytics opencv-python
-4. **Train the model**
-   python YOLO_cpu_train.py \
-  --data data/traffic.yaml \
-  --model yolov12s.yaml \
-  --device cpu \
-  --epochs 100 \
-  --batch 16 \
-  --cache True
+4. **Train the model**  
+   ```bash
+   python YOLO_cpu_train.py --data data/traffic.yaml --model yolov12s.yaml --device cpu --epochs 100 --batch 16 --cache True
 5. **Run inference**
-   python detect.py \
-  --weights runs/train/weights/best.pt \
-  --source examples/*.jpg
+   ```bash
+   python detect.py --weights runs/train/weights/best.pt --source examples/*.jpg
 
-
-## Repository Structure
-.
-├── LICENSE.md           # CC BY-NC-SA 3.0
-├── README.md
-├── data/
-│   ├── images/          # TTSRB + additional street-view images
-│   └── labels/          # YOLO-format annotations
-├── code/
-│   ├── YOLO_cpu_train.py
-│   └── detect.py
-└── yolov12s.yaml        # model configuration
+## Repository Structure (儲存庫結構)
+  ```text
+  .
+  ├── LICENSE.md           # CC BY-NC-SA 3.0
+  ├── README.md
+  ├── data/
+  │   ├── images/          # TTSRB + additional street-view images
+  │   └── labels/          # YOLO-format annotations
+  ├── code/
+  │   ├── YOLO_cpu_train.py
+  │   └── YOLO_detect.py
+  └── yolov12s.yaml        # model configuration
+  ```
 
 ## Acknowledgements (致謝)
-Original Dataset: ExodusTW, “Taiwan Traffic Sign Recognition Benchmark” (CC BY-NC-SA 3.0)
 
-Model Framework: Ultralytics YOLOv12
+- **Course:** Deep Learning in Computer Vision (深度學習應用於電腦視覺)  
+- **Project Type:** Individual Project  
+- **Semester:** NTU 113-2 (2024-2 學期)  
+- **Instructor:** Prof. Rih-Teng Wu (吳日騰)  
+- **Teaching Assistant:** Cheng-Ju Tsai (蔡政儒)  
+
+- **Original Dataset:** ExodusTW, “Taiwan Traffic Sign Recognition Benchmark” (CC BY-NC-SA 3.0)  
+- **Model Framework:** Ultralytics YOLOv12  
+
