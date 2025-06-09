@@ -2,7 +2,7 @@
 
 > **Course:** Deep Learning in Computer Vision (深度學習應用於電腦視覺)  
 > **Project Type:** Individual Project  
-> **Semester:** NTU 113-2 (2024-2學期)  
+> **Semester:** National Taiwan University 113-2 (2024-2學期)  
 > **Instructor:** Prof. Rih-Teng Wu (吳日騰)  
 > **Teaching Assistant:** Cheng-Ju Tsai (蔡政儒)  
 
@@ -74,7 +74,7 @@ This project tackles Taiwan’s distinctive traffic environment—Traditional Ch
 
 ## Acknowledgements (致謝)
 
-This work was carried out as part of the “Deep Learning in Computer Vision” course (NTU Semester 113-2). We would like to thank:
+This work was carried out as part of the “Deep Learning in Computer Vision” course (National Taiwan University Semester 113-2). We would like to thank:
 
 - **Professor Rih-Teng Wu (吳日騰)** for his guidance and support throughout this project.
 - **Teaching Assistant Cheng-Ju Tsai (蔡政儒)** for helpful discussions and feedback.
