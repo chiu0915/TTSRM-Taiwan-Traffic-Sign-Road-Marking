@@ -1,6 +1,6 @@
 # License
 
-**Taiwan Traffic Sign & Road Marking Dataset (TTSRM)**  
+**TTSRM-Taiwan-Traffic-Sign-Road-Marking**  
 is licensed under the Creative Commons Attribution–NonCommercial–ShareAlike 3.0 Unported License (CC BY-NC-SA 3.0).  
 
 > **License Summary (English)**  
@@ -22,7 +22,7 @@ is licensed under the Creative Commons Attribution–NonCommercial–ShareAlike 
 
 ## 中文說明
 
-本資料集 **TTSRM：Taiwan Traffic Sign & Road Marking Dataset**  
+本資料集 **TTSRM-Taiwan-Traffic-Sign-Road-Marking**  
 採用 **「姓名標示─非商業性─相同方式分享」3.0（Unported）** 授權條款。  
 
 - **你可以**  
