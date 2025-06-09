@@ -74,12 +74,10 @@ This project tackles Taiwan’s distinctive traffic environment—Traditional Ch
 
 ## Acknowledgements (致謝)
 
-- **Course:** Deep Learning in Computer Vision (深度學習應用於電腦視覺)  
-- **Project Type:** Individual Project  
-- **Semester:** NTU 113-2 (2024-2 學期)  
-- **Instructor:** Prof. Rih-Teng Wu (吳日騰)  
-- **Teaching Assistant:** Cheng-Ju Tsai (蔡政儒)  
+This work was carried out as part of the “Deep Learning in Computer Vision” course (NTU Semester 113-2). We would like to thank:
 
-- **Original Dataset:** ExodusTW, “Taiwan Traffic Sign Recognition Benchmark” (CC BY-NC-SA 3.0)  
-- **Model Framework:** Ultralytics YOLOv12  
+- **Professor Rih-Teng Wu (吳日騰)** for his guidance and support throughout this project.
+- **Teaching Assistant Cheng-Ju Tsai (蔡政儒)** for helpful discussions and feedback.
+- **ExodusTW** for providing the original Taiwan Traffic Sign Recognition Benchmark dataset under CC BY-NC-SA 3.0.
+- **The Ultralytics team** for the YOLOv12 framework.
 
