@@ -63,13 +63,22 @@ This project tackles Taiwan’s distinctive traffic environment—Traditional Ch
   .
   ├── LICENSE.md           # CC BY-NC-SA 3.0
   ├── README.md
-  ├── data/
-  │   ├── images/          # TTSRB + additional street-view images
-  │   └── labels/          # YOLO-format annotations
   ├── code/
   │   ├── YOLO_cpu_train.py
   │   └── YOLO_detect.py
-  └── yolov12s.yaml        # model configuration
+  └── traffic.yaml
+  ```
+  Note: The data/ folder is not included in this repository.
+  Download the TTSRM dataset ZIP (TTSRM.zip) from the Releases page and extract it alongside this repo:
+  ```bash
+  wget https://github.com/YourUser/TTSRM-Taiwan-Traffic-Sign-Road-Marking/releases/download/v1.0/TTSRM.zip
+  unzip TTSRM.zip -d data
+  ```
+  This will create:
+  ```text
+  data/
+  ├── images/    # TTSRB + additional street-view images
+  └── labels/    # YOLO-format annotation files
   ```
 
 ## Acknowledgements (致謝)
