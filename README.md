@@ -44,7 +44,7 @@ This project tackles Taiwan’s distinctive traffic environment—Traditional Ch
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/YourUser/TTSRM-Taiwan-Traffic-Sign-Road-Marking.git
+   git clone https://github.com/chiu0915/TTSRM-Taiwan-Traffic-Sign-Road-Marking.git
    cd TTSRM-Taiwan-Traffic-Sign-Road-Marking
 2. **Prepare data**
    Place the original TTSRB images and your additional lane-mark images/labels under data/images/ and data/labels/.
@@ -56,7 +56,7 @@ This project tackles Taiwan’s distinctive traffic environment—Traditional Ch
    python YOLO_cpu_train.py --data data/traffic.yaml --model yolov12s.yaml --device cpu --epochs 100 --batch 16 --cache True
 5. **Run inference**
    ```bash
-   python detect.py --weights runs/train/weights/best.pt --source examples/*.jpg
+   python detect.py --weights runs/train/weights/best.pt
 
 ## Repository Structure (儲存庫結構)
   ```text
