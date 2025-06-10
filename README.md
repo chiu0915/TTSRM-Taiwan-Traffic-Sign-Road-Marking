@@ -32,7 +32,7 @@ This project tackles Taiwan’s distinctive traffic environment—Traditional Ch
 1. **Road‐mark Expansion (路面標線擴充)**  
    – Collected 76 additional Google Maps Street View images containing lane markings and multi-object scenes.  
 2. **Multi-Object Annotations (多物件場景標註)**  
-   – Added 66 multi-object annotations to the original 1,319 single-object images, resulting in **1,395** total.  
+   – The original 1,319 images contained a single traffic element each and had no bounding-box annotations; we manually annotated 76 additional street-view images and added 66 multi-object images with full labels, bringing the total to **1,395** images. 
 3. **Integrated 37-Class Dataset (37類整合資料集)**  
    – Combined traffic signs and road markings into a unified 37-class YOLO format.  
 4. **CPU-Only Training Optimization (CPU平臺優化訓練)**  
